@@ -1,0 +1,11 @@
+﻿<Application x:Class="FF_Installer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FF_Installer"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Border" x:Key="RoundMe">
+            <Setter Property="CornerRadius" Value="8"/>
+        </Style>
+    </Application.Resources>
+</Application>
